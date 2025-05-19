@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+
+/* lado esquerdo */
+
+.lside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #583bbf;
+}
+
+.logoCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoCont img {
+  width: 88px;
+  height: 69px;
+  margin-bottom: 5px;
+}
+
+.logoCont p {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/*
+lado direito
+*/
+
+.rside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.rside h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.box p {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.box label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.txtInput {
+  display: flex;
+  width: 187px;
+  height: 34px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.rside button {
+  width: 102px;
+  height: 33px;
+  background: #50b4bf;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 155px;
+}
+
+.rside button:hover {
+  background: #3a8f94;
+}
+
+.regTxt p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.regTxt a {
+  color: #583bbf;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}

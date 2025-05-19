@@ -1,0 +1,115 @@
+/* MonkChat.module.css */
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #5e33bf; /* roxo fundo */
+}
+
+.logoCont header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5e33bf; /* roxo fundo */
+
+}
+
+.box {
+  width: 1600px;
+  height: 650px;
+  margin: auto;
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.sidebar {
+  width: 270px;
+  background-color: #d4a02f; /* amarelo mostarda */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formGroup input,
+.formGroup select,
+textarea {
+  width: 100%;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buttonGroup button {
+  flex: 1;
+  background-color: #a5731d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sendButton {
+  width: 100%;
+  background-color: #a5731d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.chatArea {
+  flex: 1;
+  background-color: #39372f;
+  padding: 20px;
+  overflow-y: auto;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chatArea p {
+  margin: 0;
+  color: #ccc;
+}
+
+.chatArea input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: 14px;
+}
+ 
